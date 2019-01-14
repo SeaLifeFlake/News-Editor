@@ -2,7 +2,7 @@
 <html>
 <?php
   //DEFINE YOUR TXT FILES HERE!
-  $myfile = fopen("YOUR_VERSION.txt", "r") or die("SOMETHING goes WRONG!");
+  $myfile = fopen("YOUR_VERSIONFILE.txt", "r") or die("SOMETHING goes WRONG!");
   $version = fgets($myfile); //DEFINE YOUR VERSION VARIABLE
   fclose($myfile);
   
