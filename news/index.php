@@ -6,7 +6,7 @@
   $version = fgets($myfile); //DEFINE YOUR VERSION VARIABLE
   fclose($myfile);
   
-  $afile = fopen("YOUR_MESSAGEFILE!", "r") or die("SOMETHING goes WRONG!");
+  $afile = fopen("YOUR_NEWSFILE", "r") or die("SOMETHING goes WRONG!");
   $inhalt = fgets($afile); //DEFINE YOUR CONTENTS 
   fclose($afile);
 ?>
