@@ -9,6 +9,6 @@ Just Download the Files and Then customize it to your files etc.
 # Example Website with CSS style
 https://ovo.lima-city.de/
 
-# Version 1.0 by OvO
+# Version 1.0
 
 Released 14.01.2019
