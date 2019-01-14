@@ -1,6 +1,6 @@
 # News Editor by OvO
 
-With this script can user Change your the news of your Homepage if they have the password you had defined.
+With this script can user change your the news of your Homepage if they have the password you had defined.
 
 # How to Install to your Website
 
