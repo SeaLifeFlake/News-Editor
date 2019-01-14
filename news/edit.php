@@ -30,13 +30,13 @@
   
   ?>
 
-  <link type="text/css" rel="stylesheet" href="/PATH/TO/style.css">  <--! Add some CSS if you WANT! -->
+  <link type="text/css" rel="stylesheet" href="/PATH/TO/style.css">  <!-- Add some CSS if you WANT! -->
 
   <head>
     <title><?php echo $title ?></title> <--! Change the Title wit the Status -->
   </head>
 
-    <p class='center'><?php echo $message ?></p> <--! Displayes The status message! -->
+    <p class='center'><?php echo $message ?></p> <!-- Displayes The status message! -->
 
     <br>
     <p class='center'><a href="LINNK_TO_YOUR_INDEX">Back to the Editor (Click)</a>
