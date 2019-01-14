@@ -12,7 +12,7 @@
           //CLEAR THE CONTENT OF THE TXT FILE
           fclose(fopen('YOUR_NEWSFILE.txt', 'w'));
   
-          // WITHE THE NEW CONTENT IN YOUR FILE
+          // WRITE THE NEW CONTENT IN YOUR FILE
           $handle = fopen('YOUR_NEWSFILE.txt', 'w') or die('Something goes WRONG!');
           $news =  $_POST['news'];
           fwrite($handle, $news);
@@ -41,6 +41,6 @@
     <br>
     <p class='center'><a href="LINNK_TO_YOUR_INDEX">Back to the Editor (Click)</a>
     <a href="LINK_TO_YOUR_HOMEPAGE">Back to Homepage (Click)</a></p>
-    <p class='center' style="color:red"><b><?php echo $version ?></b></p>
+    <p class='center' style="color:red"><b><?php echo $version ?></b></p> <!-- Displayes the Version also you can remove this element if you want -->
   </body>
 </html>
