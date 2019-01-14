@@ -29,6 +29,6 @@
   <br>
   <p class="center"><a href="LINK_TO_YOUR_HOMEPAGE">Back to Homepage(Klick)</a></p> <!-- Some Hyperlinks! -->
   <br>
-  <p style="color:red"><b><?php echo $version?></b></p>  <!-- Displays your Version -->
+  <p style="color:red"><b><?php echo $version?></b></p>  <!-- Displays your Version also you can remove this element if you want -->
  </body>
 </html>
