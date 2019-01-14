@@ -11,9 +11,9 @@
   <body>
       <marquee style="font-size: 15pt">
 	<?php
-		$myfile = fopen('PATH/TO/YOUR_NEWSFILE.txt', 'r') or die('Something goes WRONG!');   <!-- YOUR NEWS WILL BE DISPLAYED HERE -->
-		echo fgets($myfile);
-		fclose($myfile);
+	 $myfile = fopen('PATH/TO/YOUR_NEWSFILE.txt', 'r') or die('Something goes WRONG!');   <!-- YOUR NEWS WILL BE DISPLAYED HERE -->
+	 echo fgets($myfile);
+	 fclose($myfile);
 	?>
       </marquee>  
    </body>
