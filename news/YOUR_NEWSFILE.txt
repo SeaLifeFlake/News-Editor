@@ -1,1 +1,1 @@
-SAMPLE text
+SAMPLE text that will displayed on your homepage
