@@ -11,7 +11,7 @@
   <body>
       <marquee style="font-size: 15pt">
 	<?php
-	 $myfile = fopen('PATH/TO/YOUR_NEWSFILE.txt', 'r') or die('Something goes WRONG!');
+	 $myfile = fopen('PATH/TO/YOUR_NEWSFILE.txt', 'r') or die('Something goes WRONG!');  //DEFINE YOUR FILE PATH
 	 echo fgets($myfile);
 	 fclose($myfile);
 	?>
