@@ -3,14 +3,14 @@
     <p><b>News editor</b></p>
   <?php
 
-          $myfile = fopen("YOUR_VERSION.txt", "r") or die("Something goes WRONG!");
+          $myfile = fopen("YOUR_VERSIONFILE.txt", "r") or die("Something goes WRONG!");
           $version = fgets($myfile);
           fclose($myfile);
       
       if ($_POST['pw'] == 'TYPE_HERE_YOUR_PASSWORD') {
   
           //CLEAR THE CONTENT OF THE TXT FILE
-          fclose(fopen('YOUR_NEWS_FILE.txt', 'w'));
+          fclose(fopen('YOUR_NEWSFILE.txt', 'w'));
   
           // WITHE THE NEW CONTENT IN YOUR FILE
           $handle = fopen('YOUR_NEWSFILE.txt', 'w') or die('Something goes WRONG!');
