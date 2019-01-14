@@ -27,7 +27,7 @@
     <input type="submit" value="Update">
   </form>
   <br>
-  <p class="center"><a href="LINK_TO_YOUR_HOMEPAGE">Zurück zur Homepage(Klick)</a></p> <!-- Some Hyperlinks! -->
+  <p class="center"><a href="LINK_TO_YOUR_HOMEPAGE">Back to Homepage(Klick)</a></p> <!-- Some Hyperlinks! -->
   <br>
   <p style="color:red"><b><?php echo $version?></b></p>  <!-- Displays your Version -->
  </body>
