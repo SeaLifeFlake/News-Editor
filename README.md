@@ -1,10 +1,10 @@
 # News Editor by OvO
 
-With this script can user change your the news of your Homepage if they have the password you had defined.
+This script allows people to change your news on their homepage with the proper password you've set before.
 
 # How to Install to your Website
 
-Just Download the Files and Then customize it to your files etc.
+Just download the files and customize them.
 
 # Example Website with CSS style
 https://ovo.lima-city.de/
