@@ -6,6 +6,9 @@ With this script can user Change your the news of your Homepage if they have the
 
 Just Download the Files and Then customize it to your files etc.
 
+# Example Website with CSS style
+https://ovo.lima-city.de/
+
 # Version 1.0 by OvO
 
 Released 14.01.2019
