@@ -3,7 +3,7 @@
     <p><b>News editor</b></p>
   <?php
 
-          $myfile = fopen("YOUR_VERSION_FILE.txt.txt", "r") or die("Something goes WRONG!");
+          $myfile = fopen("YOUR_VERSION.txt.txt", "r") or die("Something goes WRONG!");
           $version = fgets($myfile);
           fclose($myfile);
       
@@ -13,7 +13,7 @@
           fclose(fopen('YOUR_NEWS_FILE.txt', 'w'));
   
           // WITHE THE NEW CONTENT IN YOUR FILE
-          $handle = fopen('YOUR_NEWS_FILE.txt', 'w') or die('Something goes WRONG!');
+          $handle = fopen('YOUR_NEWSFILE.txt', 'w') or die('Something goes WRONG!');
           $news =  $_POST['news'];
           fwrite($handle, $news);
           fclose($handle);
