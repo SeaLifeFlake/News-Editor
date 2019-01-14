@@ -3,7 +3,7 @@
     <p><b>News editor</b></p>
   <?php
 
-          $myfile = fopen("YOUR_VERSION.txt.txt", "r") or die("Something goes WRONG!");
+          $myfile = fopen("YOUR_VERSION.txt", "r") or die("Something goes WRONG!");
           $version = fgets($myfile);
           fclose($myfile);
       
