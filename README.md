@@ -4,7 +4,7 @@ This script allows people to change your news on their homepage with the proper 
 
 # How to Install to your Website
 
-Just download the files and customize them.
+Just download the files and customize them. Dont forget to give the php files 777 as Permissions.
 
 # Plans for the future
 
